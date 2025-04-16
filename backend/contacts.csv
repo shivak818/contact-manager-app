@@ -1,0 +1,8 @@
+Name,Designation,Company,Industry,Email,Phonenumber,Country,addedDate
+Alice Johnson,Designer,Creatives Inc,Design,alice.j@example.com,5551234567,UK,2025-04-04T00:00:00.000Z
+Bob Williams,Product Manager,InnovateX,Technology,bob.w@example.com,4449876543,Germany,2025-04-02T00:00:00.000Z
+Emma Brown,Analyst,DataWorks,Analytics,emma.b@example.com,3331122334,India,2025-04-01T00:00:00.000Z
+Jane Smith,Developer,WebSolutions,IT Services,jane@example.com,9876543210,Canada,2025-04-10T02:17:33.221Z
+Robert Brown,Designer,DesignPro,Design,robert@example.com,4567891230,India,2025-04-10T02:17:33.221Z
+Emily White,Analyst,DataInsights,Analytics,emily@example.com,7891234560,UK,2025-04-10T02:17:33.221Z
+Michael Green,Consultant,BizConsult,Consulting,michael@example.com,3216549870,Germany,2025-04-10T02:17:33.221Z

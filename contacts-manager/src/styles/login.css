@@ -1,0 +1,170 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f9ff;
+    position: relative;
+    overflow: hidden;
+}
+
+.decor-circle {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #a7d4ff;
+    z-index: 0;
+}
+
+.circle-top-left {
+    width: 300px;
+    height: 300px;
+    top: -150px;
+    left: -150px;
+}
+
+.circle-bottom-right {
+    width: 300px;
+    height: 300px;
+    bottom: -150px;
+    right: -150px;
+}
+
+.dotted-grid {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(6, 8px);
+    grid-template-rows: repeat(7, 8px);
+    grid-gap: 12px;
+    z-index: 0;
+}
+
+.grid-top-right {
+    top: 120px;
+    right: 120px;
+}
+
+.grid-bottom-left {
+    bottom: 120px;
+    left: 120px;
+}
+
+.dotted-grid div {
+    width: 8px;
+    height: 8px;
+    background-color: #a7d4ff;
+    border-radius: 50%;
+}
+
+.login-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    padding: 40px;
+    width: 400px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.login-title {
+    color: #7D8CC4;
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.login-subtitle {
+    color: #000000;
+    font-size: 15px;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-wrapper {
+    position: relative;
+}
+
+.input-field {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+    outline: none;
+}
+
+.input-field::placeholder {
+    color: #999;
+}
+
+.password-field {
+    position: relative;
+}
+
+.password-toggle {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #7c93c5;
+}
+
+.signup-link {
+    color: #7c93c5;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.btn {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;        
+    justify-content: center; 
+    align-items: center;     
+}
+
+.signin-btn {
+    background-color: #7D8CC4;
+    color: #fff;
+    margin-top: 10px;
+    width: 100%;  
+}
+
+button.btn.signin-btn {
+    background-color: #7D8CC4;
+}
+
+.link-button {
+    background-color: #7D8CC4; /* Added to match Sign In button */
+    color: #fff; /* Ensure text is readable */
+    padding: 8px 16px; /* Adjust padding for button-like appearance */
+    border-radius: 5px; /* Match Sign In button style */
+    border: none; /* Remove default button border */
+    text-decoration: none; /* Remove underline */
+}
+
+.error-message {
+    color: #ff4d4f;
+    background-color: #ffe6e6;
+    border: 1px solid #ffcccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 5px;
+}
